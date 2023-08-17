@@ -297,10 +297,74 @@ footer .col-sm-3{
 
 }
 
-
-
-
-
-
-
 /* fotos.html fin*/
+
+/* servicios.html inicia*/
+
+#foto-servicios{
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width: 380px;
+
+}
+
+
+#texto-servicios h5{
+    font-weight: bolder;
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#texto-servicios ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+#texto-servicios li{
+    font-size: 15px;
+    margin-left: 5px;
+    margin-bottom: 15px;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+}
+
+#texto-servicios i{
+    display: flex;
+    padding-right: 5px;
+    font-size: 12px;
+    color: #641616;
+}
+
+
+@media screen and (min-width: 576px) {
+    #texto-servicios li{
+        font-size: 18px;
+        margin-left: 5px;
+        margin-bottom: 20px;
+
+    }
+}
+
+@media screen and (min-width: 576px){
+    #texto-servicios h5{
+        font-weight: bolder;
+        font-size: 24px;
+        margin-bottom: 20px;
+        font-family: 'Raleway', sans-serif;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* servicios.html fin*/
