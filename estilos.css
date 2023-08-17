@@ -1,0 +1,302 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Inter:wght@300&family=Raleway:wght@300&display=swap');
+
+
+
+/* fuentes 
+
+font-family: 'Crimson Text', serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Raleway', sans-serif;
+
+*/
+
+
+
+*{
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar{
+    height: 100px;
+    background-color: #641616;
+    border: 1px solid white;
+    z-index: 1;
+}
+.navbar img{
+    height: 80px;
+}
+.nav-link{
+    color: white !important;
+}
+
+.nav-item{
+    margin-left: 12px;
+    border-radius: 2px;
+}
+.nav-item:hover{
+    background-color: #8b3f3f;
+    transition: 1s;
+}
+
+@media only screen and (min-width:0) and (max-width:576px){
+    .navbar-collapse{
+        background-color: #641616;
+        display: flex;
+        justify-content:left !important;
+        position: relative;
+        
+    }
+}
+
+#intro{
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+section{
+    margin-right: 50px !important;
+}
+
+
+.icono{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    color: #641616;
+    margin-bottom: 5px;
+}
+.nombre h4{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #641616;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.parrafo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.fondo-texto{
+    background-image: url(./imgs/fondo.jpg);
+    background-size: cover;
+    height: 50px;
+    margin-bottom: 40px;
+}
+
+
+article{
+    height: 250px;
+    border: 1px solid white;
+}
+
+#foto8{
+    background-image: url(./imgs/8.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#foto25{
+    background-image: url(./imgs/25.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#foto15{
+    background-image: url(./imgs/15.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#foto33{
+    background-image: url(./imgs/33.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.iconoreserva, .consulta{
+    display: flex;
+    justify-content: center; 
+}
+
+.iconoreserva{
+    font-size: 30px;
+    color: #641616;
+    margin-bottom: 15px;
+    margin-top: 100px;
+}
+.consulta{
+    margin-bottom: 50px;
+}
+.consulta input{
+    background-color: #641616;
+    color: white;
+    width: 300px;
+}
+
+.consulta input:hover{
+    background-color: #8b3f3f;
+    transition: 0.5s;
+}
+
+footer{
+    background-color: #222121;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+footer h5{
+    font-weight: bolder;
+}
+
+footer p{
+    font-size: 13px;
+    color: #a7a6a6;
+
+}
+
+footer i{
+    font-size: 25px;
+    color: white;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+
+footer .col-sm-3{
+    margin-top: 30px;
+    padding-left: 5%;
+    margin-bottom: 20px;
+
+}
+
+
+#copy{
+    background-color: black;
+    color: #a7a6a6;
+    height: 25px;
+}
+
+#copy p{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    line-height: 25px;
+
+}
+
+.subir {
+    height: 25px;
+    width: 25px;
+    background-color: #641616;
+    color: #fff;
+    position: fixed;
+    bottom: 25px;
+    right: 15px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 20px;
+    box-shadow: 0 0 5px black;
+    border-radius: 5px;
+
+}
+
+.subir:hover{
+    background-color: #864949;
+    transition: 0.3s; 
+    text-decoration: none;
+}
+
+.wpp {
+    height: 40px;
+    width: 40px;
+    background-color: #369934;
+    color: #fff;
+    position: fixed;
+    bottom: 25px;
+    left: 10px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+    box-shadow: 0 0 5px black;
+    border-radius: 40px;
+
+}
+
+.wpp:hover{
+    background-color: #35c830;
+    transition: 0.3s; 
+
+}
+
+
+@media screen and (min-width: 576px) {
+    .subir{
+        height: 35px;
+        width: 35px;
+        background-color: #641616;
+        color: #fff;
+        position: fixed;
+        bottom: 45px;
+        right: 20px;
+        text-align: center;
+        line-height: 35px;
+        font-size: 30px;
+        box-shadow: 0 0 5px black;
+        border-radius: 5px;
+
+    }
+    
+}
+
+@media screen and (min-width: 576px) {
+    .wpp{
+        height: 60px;
+        width: 60px;
+        background-color: #369934;
+        color: #fff;
+        position: fixed;
+        bottom: 25px;
+        left: 20px;
+        text-align: center;
+        line-height: 60px;
+        font-size: 45px;
+        box-shadow: 0 0 5px black;
+        border-radius: 40px;
+    }
+    
+}
+
+
+/* fotos.html inicia*/
+
+.container-fluid h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+
+#galeria img{
+   margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+/* fotos.html fin*/
