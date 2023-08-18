@@ -136,11 +136,14 @@ article{
 }
 .consulta{
     margin-bottom: 50px;
+    
 }
 .consulta input{
     background-color: #641616;
     color: white;
     width: 300px;
+    font-family: 'Raleway', sans-serif;
+
 }
 
 .consulta input:hover{
@@ -425,6 +428,7 @@ footer .col-sm-3{
 
 #inputenviar:hover{
     background-color: #8b3f3f;
+    transition: 0.5s;
 }
 
 
