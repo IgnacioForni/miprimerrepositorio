@@ -49,6 +49,10 @@ font-family: 'Raleway', sans-serif;
     }
 }
 
+#collapsibleNavbar{
+    justify-content: flex-end;
+}
+
 #intro{
     margin-top: 50px;
     margin-bottom: 50px;
