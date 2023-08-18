@@ -380,19 +380,18 @@ footer .col-sm-3{
 /* reservas.html inicia*/
 
 
-.formulario{
-    display: flex;
-    justify-content: center;
+#formulario form{
+    margin-bottom: 50px;
 }
 
-.container-fluid h5{
+.container h5{
     font-size: 18px;
     font-weight: bolder;
     font-family: 'Raleway', sans-serif;
 }
 
 
-.container-fluid form input{
+.container form input{
 
     display: block;
     width: 100%;
@@ -403,7 +402,7 @@ footer .col-sm-3{
 
 }
 
-.container-fluid form textarea{
+.container form textarea{
 
     width: 100%;
     font-family: 'Raleway', sans-serif;
@@ -431,6 +430,15 @@ footer .col-sm-3{
     transition: 0.5s;
 }
 
+.numero {
+    display: flex;
+}
+
+.numero i{
+    color: #641616;
+    margin-top: 3px;
+    margin-right: 3px;
+}
 
 
 /* reservas.html inicia*/
