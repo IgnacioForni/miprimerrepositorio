@@ -301,11 +301,15 @@ footer .col-sm-3{
 
 /* servicios.html inicia*/
 
+#middle{
+    display: flex;
+    justify-content: center;
+}
+
+
 #foto-servicios{
     margin-bottom: 20px;
     border-radius: 10px;
-    width: 380px;
-
 }
 
 
@@ -356,8 +360,12 @@ footer .col-sm-3{
     
 }
 
+@media screen and (min-width: 1199px){
+    #foto-servicios{
+        width: 450px;
+    }
 
-
+}
 
 
 
