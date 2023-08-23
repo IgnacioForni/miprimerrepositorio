@@ -64,6 +64,26 @@ font-family: 'Raleway', sans-serif;
 
 }
 
+.intro-foto{
+    display: flex;
+    justify-content: center;
+}
+
+#intro img {
+    width: 200px; 
+    height: 100px; 
+    display: block; 
+}
+
+
+@media (max-width: 768px) {
+    #intro img {
+        display: none; 
+    }
+}
+
+
+
 section{
     margin-right: 50px !important;
 }
