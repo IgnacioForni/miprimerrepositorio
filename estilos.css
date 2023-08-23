@@ -67,12 +67,17 @@ font-family: 'Raleway', sans-serif;
 .intro-foto{
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 30vh;
 }
 
 #intro img {
-    width: 200px; 
-    height: 100px; 
+    width: 250px; 
+    height: 150px; 
     display: block; 
+    margin-right: 30px;
+    align-items: center;
+    border-radius: 3px;
 }
 
 
