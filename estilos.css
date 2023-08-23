@@ -44,19 +44,20 @@ font-family: 'Raleway', sans-serif;
     padding-right: 5px;
 }
 
-@media only screen and (min-width:0) and (max-width:576px){
+@media only screen and (min-width:0) and (max-width:768px){
     .navbar-collapse{
         background-color: #641616;
         display: flex;
         justify-content:left !important;
         position: relative;
-        
     }
 }
 
 #collapsibleNavbar{
     justify-content: flex-end;
 }
+
+
 
 #intro{
     margin-top: 50px;
@@ -198,7 +199,7 @@ article{
 }
 
 .iconoreserva{
-    font-size: 30px;
+    font-size: 40px;
     color: #641616;
     margin-bottom: 15px;
     margin-top: 100px;
@@ -210,9 +211,9 @@ article{
 .consulta input{
     background-color: #641616;
     color: white;
-    width: 250px;
+    width: 300px;
     font-family: 'Raleway', sans-serif;
-    height: 40px;
+    height: 50px;
     border-radius: 3px;
 
 }
@@ -424,7 +425,7 @@ footer .col-sm-3{
 #texto-servicios i{
     display: flex;
     padding-right: 5px;
-    font-size: 12px;
+    font-size: 16px;
     color: #641616;
 }
 
