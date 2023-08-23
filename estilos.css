@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Inter:wght@300&family=Manrope:wght@200&family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Inter:wght@300&family=Manrope:wght@200&family=Montserrat:wght@300&family=Raleway:wght@300&display=swap');
 
 
 /* fuentes 
@@ -7,6 +7,7 @@
 font-family: 'Crimson Text', serif;
 font-family: 'Inter', sans-serif;
 font-family: 'Manrope', sans-serif;
+font-family: 'Montserrat', sans-serif;
 font-family: 'Raleway', sans-serif;
 
 */
@@ -319,9 +320,12 @@ footer .col-sm-3{
 /* ESTILO TODOS LOS H1 DEL SITIO */
 
 .container-fluid h1{
-    text-shadow: 1px;
-    font-family: 'Manrope', sans-serif;
+    border: 1px solid white;
+    background-color: #641616;
+    text-shadow: 1px 1px 1px 1px;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
+    color: white;
 
 }
 
