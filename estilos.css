@@ -68,7 +68,16 @@ font-family: 'Raleway', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30vh;
+
+}
+
+@media (min-width: 768px) {
+    .intro-foto{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30vh;
+    }
 }
 
 #intro img {
