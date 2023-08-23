@@ -461,6 +461,14 @@ footer .col-sm-3{
 /* reservas.html inicia*/
 
 
+@media screen and (max-width:576px){
+    #titulo-reserva{
+        font-size: 22px;
+    }
+
+}
+
+
 #formulario form{
     margin-bottom: 50px;
 }
