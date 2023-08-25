@@ -202,10 +202,10 @@ article{
     font-size: 40px;
     color: #641616;
     margin-bottom: 15px;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .consulta{
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     
 }
 .consulta input{
@@ -222,6 +222,37 @@ article{
     background-color: #8b3f3f;
     transition: 0.5s;
 }
+
+/* resenas inicio*/
+
+#opiniones{
+    display: flex;
+    justify-content: center;
+}
+
+#opiniones i{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+#opiniones a{
+    text-decoration: none;
+    color: black;
+}
+
+#opiniones p{
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+
+
+
+
+}
+/* resenas fin*/
+
 
 footer{
     background-color: #222121;
