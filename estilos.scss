@@ -12,11 +12,14 @@ font-family: 'Raleway', sans-serif;
 
 */
 
+/* VARIABLES*/
 
 
 *{
     font-family: 'Inter', sans-serif;
 }
+
+/* inicio menu navegacion*/
 
 .navbar{
     height: 100px;
@@ -27,15 +30,19 @@ font-family: 'Raleway', sans-serif;
     img{
         height: 80px;
     }
-}
 
-.nav-link{
-    color: white !important;
+    a i{
+        padding-right: 5px;
+    }
 }
 
 .nav-item{
     margin-left: 12px;
-    border-radius: 2px;
+
+    .nav-link{
+        color: rgb(211, 214, 220) !important;
+        border-radius: 2px;
+    }
 
     :hover{
         background-color: #8b3f3f;
@@ -43,16 +50,11 @@ font-family: 'Raleway', sans-serif;
     }
 }
 
-
-.navbar a i{
-    padding-right: 5px;
-}
-
 @media only screen and (min-width:0) and (max-width:768px){
     .navbar-collapse{
         background-color: #641616;
         display: flex;
-        justify-content:left !important;
+        justify-content: left !important;
         position: relative;
     }
 }
@@ -61,16 +63,30 @@ font-family: 'Raleway', sans-serif;
     justify-content: flex-end;
 }
 
+/* FIN menu navegacion*/
+
+
+/* iNICIO introduccion + foto*/
+
 #intro{
     margin-top: 50px;
     margin-bottom: 50px;
 
-}
+    .intro-foto{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
 
-.intro-foto{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    img {
+        width: 250px; 
+        height: 150px; 
+        display: block; 
+        margin-right: 30px;
+        align-items: center;
+        border-radius: 3px;
+    }
 
 }
 
@@ -83,52 +99,45 @@ font-family: 'Raleway', sans-serif;
     }
 }
 
-#intro img {
-    width: 250px; 
-    height: 150px; 
-    display: block; 
-    margin-right: 30px;
-    align-items: center;
-    border-radius: 3px;
-}
-
-
 @media (max-width: 768px) {
     #intro img {
         display: none; 
     }
 }
 
+/* FIN introduccion + foto*/
 
+/* inicio seccion con iconos*/
 
 section{
     margin-right: 50px !important;
+    .icono{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 30px;
+        color: #641616;
+        margin-bottom: 5px;
+    }
+    .nombre h4{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        color: #641616;
+        font-size: 20px;
+        font-weight: bolder;
+    }
+    
+    .parrafo{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 30px;
+    }
 }
 
+/* FIN seccion con iconos*/
 
-.icono{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-size: 30px;
-    color: #641616;
-    margin-bottom: 5px;
-}
-.nombre h4{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    color: #641616;
-    font-size: 20px;
-    font-weight: bolder;
-}
-
-.parrafo{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-bottom: 30px;
-}
 
 #fondo-texto{
     background-image: url(./imgs/fondo.jpg);
@@ -151,9 +160,6 @@ section{
     
     }
 }
-
-
-
 
 @media screen and (min-width:538px) {
     #fondo-texto h5{
