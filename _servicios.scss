@@ -1,4 +1,3 @@
-/* servicios.html inicia*/
 
 #middle{
     display: flex;
@@ -34,7 +33,7 @@
         display: flex;
         padding-right: 5px;
         font-size: 16px;
-        color: #641616;
+        color: $color1;
     }
 
 }
@@ -54,7 +53,7 @@
         font-weight: bolder;
         font-size: 24px;
         margin-bottom: 20px;
-        font-family: 'Raleway', sans-serif;
+        font-family: $fuente3;
     }
     
 }
@@ -66,4 +65,4 @@
 
 }
 
-/* servicios.html fin*/
+
