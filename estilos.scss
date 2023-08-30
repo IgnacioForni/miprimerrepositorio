@@ -12,58 +12,10 @@ font-family: 'Raleway', sans-serif;
 
 */
 
-/* VARIABLES*/
-
 
 *{
     font-family: 'Inter', sans-serif;
 }
-
-/* inicio menu navegacion*/
-
-.navbar{
-    height: 100px;
-    background-color: #641616;
-    border: 1px solid white;
-    z-index: 1;
-
-    img{
-        height: 80px;
-    }
-
-    a i{
-        padding-right: 5px;
-    }
-}
-
-.nav-item{
-    margin-left: 12px;
-
-    .nav-link{
-        color: rgb(211, 214, 220) !important;
-        border-radius: 2px;
-    }
-
-    :hover{
-        background-color: #8b3f3f;
-        transition: 1s;
-    }
-}
-
-@media only screen and (min-width:0) and (max-width:768px){
-    .navbar-collapse{
-        background-color: #641616;
-        display: flex;
-        justify-content: left !important;
-        position: relative;
-    }
-}
-
-#collapsibleNavbar{
-    justify-content: flex-end;
-}
-
-/* FIN menu navegacion*/
 
 
 /* iNICIO introduccion + foto*/
@@ -234,7 +186,6 @@ article{
 
 }
 
-
 /* Resenas inicio*/
 
 #opiniones{
@@ -259,8 +210,7 @@ article{
     
 }
 
-
-/* resenas fin*/
+/* RESENAS fin*/
 
 
 footer{
@@ -289,12 +239,8 @@ footer{
         margin-top: 30px;
         padding-left: 5%;
         margin-bottom: 20px;
-    
     }
-
 }
-
-
 
 #copy{
     background-color: black;
@@ -307,8 +253,6 @@ footer{
         line-height: 25px;
     }
 }
-
-
 
 /* inicio botones wpp y para subir*/
 
@@ -336,7 +280,6 @@ footer{
         }
     }
     
-
 }
 
 
@@ -400,9 +343,6 @@ footer{
 }
 
 
-
-
-
 /* fin botones wpp y para subir*/
 
 /* ESTILO TODOS LOS H1 DEL SITIO */
@@ -414,7 +354,6 @@ footer{
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
     color: white;
-
 }
 
 /* FIN ESTILO TODOS LOS H1 DEL SITIO */
@@ -438,149 +377,8 @@ footer{
 
 /* fotos.html fin*/
 
-/* servicios.html inicia*/
-
-#middle{
-    display: flex;
-    justify-content: center;
-}
 
 
-#foto-servicios{
-    margin-bottom: 20px;
-    border-radius: 10px;
-}
-
-
-#texto-servicios{
-    h5{
-        font-weight: bolder;
-        font-size: 18px;
-        margin-bottom: 20px;
-        font-family: 'Raleway', sans-serif;
-    }
-    ul{
-        list-style-type: none;
-        padding: 0;
-    }
-    li{
-        font-size: 15px;
-        margin-left: 5px;
-        margin-bottom: 15px;
-        color: black;
-        font-family: 'Raleway', sans-serif;
-    }
-    i{
-        display: flex;
-        padding-right: 5px;
-        font-size: 16px;
-        color: #641616;
-    }
-
-}
-
-
-@media screen and (min-width: 576px) {
-    #texto-servicios li{
-        font-size: 18px;
-        margin-left: 5px;
-        margin-bottom: 20px;
-
-    }
-}
-
-@media screen and (min-width: 576px){
-    #texto-servicios h5{
-        font-weight: bolder;
-        font-size: 24px;
-        margin-bottom: 20px;
-        font-family: 'Raleway', sans-serif;
-    }
-    
-}
-
-@media screen and (min-width: 1199px){
-    #foto-servicios{
-        width: 450px;
-    }
-
-}
-
-
-/* servicios.html fin*/
-
-/* reservas.html inicia*/
-
-
-@media screen and (max-width:576px){
-    #titulo-reserva{
-        font-size: 22px;
-    }
-
-}
-
-
-#formulario form{
-    margin-bottom: 50px;
-}
-
-.container h5{
-    font-size: 18px;
-    font-weight: bolder;
-    font-family: 'Raleway', sans-serif;
-}
-
-
-.container form input{
-
-    display: block;
-    width: 100%;
-    font-family: 'Raleway', sans-serif;
-    margin-top: 10px;
-    height: 50px;
-    padding: 5px;
-
-}
-
-
-
-.container form textarea{
-
-    width: 100%;
-    font-family: 'Raleway', sans-serif;
-    margin-top: 10px;
-    height: 200px;
-    resize: none;
-    padding: 5px;
-
-}
-
-#inputenviar{
-    background-color: #641616;
-    color: white;
-    width: 100%;
-    font-family: 'Raleway', sans-serif;
-    margin-top: 10px;
-    height: 50px;
-    resize: none;
-    padding: 5px;
-
-}
-
-#inputenviar:hover{
-    background-color: #8b3f3f;
-    transition: 0.5s;
-}
-
-.numero {
-    display: flex;
-}
-
-.numero i{
-    color: #641616;
-    margin-top: 3px;
-    margin-right: 3px;
-}
-
-
-/* reservas.html inicia*/
+@import "_menu";
+@import "_reservas";
+@import "_servicios";

@@ -1,0 +1,45 @@
+/* inicio menu navegacion*/
+
+.navbar{
+    height: 100px;
+    background-color: #641616;
+    border: 1px solid white;
+    z-index: 1;
+
+    img{
+        height: 80px;
+    }
+
+    a i{
+        padding-right: 5px;
+    }
+}
+
+.nav-item{
+    margin-left: 12px;
+
+    .nav-link{
+        color: rgb(211, 214, 220) !important;
+        border-radius: 2px;
+    }
+
+    :hover{
+        background-color: #8b3f3f;
+        transition: 1s;
+    }
+}
+
+@media only screen and (min-width:0) and (max-width:768px){
+    .navbar-collapse{
+        background-color: #641616;
+        display: flex;
+        justify-content: left !important;
+        position: relative;
+    }
+}
+
+#collapsibleNavbar{
+    justify-content: flex-end;
+}
+
+/* FIN menu navegacion*/

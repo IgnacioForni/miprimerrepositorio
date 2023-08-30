@@ -8,50 +8,10 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Raleway', sans-serif;
 
 */
-/* VARIABLES*/
 * {
   font-family: "Inter", sans-serif;
 }
 
-/* inicio menu navegacion*/
-.navbar {
-  height: 100px;
-  background-color: #641616;
-  border: 1px solid white;
-  z-index: 1;
-}
-.navbar img {
-  height: 80px;
-}
-.navbar a i {
-  padding-right: 5px;
-}
-
-.nav-item {
-  margin-left: 12px;
-}
-.nav-item .nav-link {
-  color: rgb(211, 214, 220) !important;
-  border-radius: 2px;
-}
-.nav-item :hover {
-  background-color: #8b3f3f;
-  transition: 1s;
-}
-
-@media only screen and (min-width: 0) and (max-width: 768px) {
-  .navbar-collapse {
-    background-color: #641616;
-    display: flex;
-    justify-content: left !important;
-    position: relative;
-  }
-}
-#collapsibleNavbar {
-  justify-content: flex-end;
-}
-
-/* FIN menu navegacion*/
 /* iNICIO introduccion + foto*/
 #intro {
   margin-top: 50px;
@@ -224,7 +184,7 @@ article {
   text-decoration: none;
 }
 
-/* resenas fin*/
+/* RESENAS fin*/
 footer {
   background-color: #222121;
   color: white;
@@ -368,62 +328,45 @@ footer .col-sm-3 {
 }
 
 /* fotos.html fin*/
-/* servicios.html inicia*/
-#middle {
-  display: flex;
-  justify-content: center;
+/* inicio menu navegacion*/
+.navbar {
+  height: 100px;
+  background-color: #641616;
+  border: 1px solid white;
+  z-index: 1;
 }
-
-#foto-servicios {
-  margin-bottom: 20px;
-  border-radius: 10px;
+.navbar img {
+  height: 80px;
 }
-
-#texto-servicios h5 {
-  font-weight: bolder;
-  font-size: 18px;
-  margin-bottom: 20px;
-  font-family: "Raleway", sans-serif;
-}
-#texto-servicios ul {
-  list-style-type: none;
-  padding: 0;
-}
-#texto-servicios li {
-  font-size: 15px;
-  margin-left: 5px;
-  margin-bottom: 15px;
-  color: black;
-  font-family: "Raleway", sans-serif;
-}
-#texto-servicios i {
-  display: flex;
+.navbar a i {
   padding-right: 5px;
-  font-size: 16px;
-  color: #641616;
 }
 
-@media screen and (min-width: 576px) {
-  #texto-servicios li {
-    font-size: 18px;
-    margin-left: 5px;
-    margin-bottom: 20px;
+.nav-item {
+  margin-left: 12px;
+}
+.nav-item .nav-link {
+  color: rgb(211, 214, 220) !important;
+  border-radius: 2px;
+}
+.nav-item :hover {
+  background-color: #8b3f3f;
+  transition: 1s;
+}
+
+@media only screen and (min-width: 0) and (max-width: 768px) {
+  .navbar-collapse {
+    background-color: #641616;
+    display: flex;
+    justify-content: left !important;
+    position: relative;
   }
 }
-@media screen and (min-width: 576px) {
-  #texto-servicios h5 {
-    font-weight: bolder;
-    font-size: 24px;
-    margin-bottom: 20px;
-    font-family: "Raleway", sans-serif;
-  }
+#collapsibleNavbar {
+  justify-content: flex-end;
 }
-@media screen and (min-width: 1199px) {
-  #foto-servicios {
-    width: 450px;
-  }
-}
-/* servicios.html fin*/
+
+/* FIN menu navegacion*/
 /* reservas.html inicia*/
 @media screen and (max-width: 576px) {
   #titulo-reserva {
@@ -484,4 +427,60 @@ footer .col-sm-3 {
   margin-right: 3px;
 }
 
-/* reservas.html inicia*//*# sourceMappingURL=estilos.css.map */
+/* reservas.html inicia*/
+/* servicios.html inicia*/
+#middle {
+  display: flex;
+  justify-content: center;
+}
+
+#foto-servicios {
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+#texto-servicios h5 {
+  font-weight: bolder;
+  font-size: 18px;
+  margin-bottom: 20px;
+  font-family: "Raleway", sans-serif;
+}
+#texto-servicios ul {
+  list-style-type: none;
+  padding: 0;
+}
+#texto-servicios li {
+  font-size: 15px;
+  margin-left: 5px;
+  margin-bottom: 15px;
+  color: black;
+  font-family: "Raleway", sans-serif;
+}
+#texto-servicios i {
+  display: flex;
+  padding-right: 5px;
+  font-size: 16px;
+  color: #641616;
+}
+
+@media screen and (min-width: 576px) {
+  #texto-servicios li {
+    font-size: 18px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 576px) {
+  #texto-servicios h5 {
+    font-weight: bolder;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: "Raleway", sans-serif;
+  }
+}
+@media screen and (min-width: 1199px) {
+  #foto-servicios {
+    width: 450px;
+  }
+}
+/* servicios.html fin*//*# sourceMappingURL=estilos.css.map */

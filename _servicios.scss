@@ -1,0 +1,69 @@
+/* servicios.html inicia*/
+
+#middle{
+    display: flex;
+    justify-content: center;
+}
+
+
+#foto-servicios{
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+
+#texto-servicios{
+    h5{
+        font-weight: bolder;
+        font-size: 18px;
+        margin-bottom: 20px;
+        font-family: 'Raleway', sans-serif;
+    }
+    ul{
+        list-style-type: none;
+        padding: 0;
+    }
+    li{
+        font-size: 15px;
+        margin-left: 5px;
+        margin-bottom: 15px;
+        color: black;
+        font-family: 'Raleway', sans-serif;
+    }
+    i{
+        display: flex;
+        padding-right: 5px;
+        font-size: 16px;
+        color: #641616;
+    }
+
+}
+
+
+@media screen and (min-width: 576px) {
+    #texto-servicios li{
+        font-size: 18px;
+        margin-left: 5px;
+        margin-bottom: 20px;
+
+    }
+}
+
+@media screen and (min-width: 576px){
+    #texto-servicios h5{
+        font-weight: bolder;
+        font-size: 24px;
+        margin-bottom: 20px;
+        font-family: 'Raleway', sans-serif;
+    }
+    
+}
+
+@media screen and (min-width: 1199px){
+    #foto-servicios{
+        width: 450px;
+    }
+
+}
+
+/* servicios.html fin*/
