@@ -12,6 +12,9 @@ font-family: 'Raleway', sans-serif;
 /*VARIABLES FIN*/
 * {
   font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* iNICIO introduccion + foto*/
@@ -355,7 +358,7 @@ footer .col-sm-3 {
   border-radius: 2px;
 }
 .nav-item :hover {
-  background-color: #8b3f3f;
+  background-color: white;
   transition: 1s;
 }
 
@@ -408,7 +411,7 @@ footer .col-sm-3 {
   border-radius: 2px;
 }
 .inputenviar :hover {
-  background-color: #8b3f3f;
+  background-color: white;
   transition: 0.5s;
 }
 

@@ -15,6 +15,7 @@ font-family: 'Raleway', sans-serif;
 /*VARIABLES*/
 
 $color1: #641616;
+$color2: #8b3f3f;
 $color2: white;
 $color3: black;
 $fuente1: 'Inter', sans-serif;
@@ -26,7 +27,11 @@ $fuente3: 'Raleway', sans-serif;
 
 *{
     font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
 
 
 /* iNICIO introduccion + foto*/
