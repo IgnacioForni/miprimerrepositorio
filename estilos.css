@@ -358,7 +358,7 @@ footer .col-sm-3 {
   border-radius: 2px;
 }
 .nav-item :hover {
-  background-color: white;
+  background-color: #8b3f3f;
   transition: 1s;
 }
 
@@ -411,7 +411,7 @@ footer .col-sm-3 {
   border-radius: 2px;
 }
 .inputenviar :hover {
-  background-color: white;
+  background-color: #8b3f3f;
   transition: 0.5s;
 }
 
@@ -448,7 +448,7 @@ footer .col-sm-3 {
   font-size: 15px;
   margin-left: 5px;
   margin-bottom: 15px;
-  color: black;
+  color: white;
   font-family: "Raleway", sans-serif;
 }
 #texto-servicios i {
