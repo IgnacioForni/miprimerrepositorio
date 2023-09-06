@@ -50,6 +50,10 @@ font-family: 'Raleway', sans-serif;
   }
 }
 /* FIN introduccion + foto*/
+#carouselExampleIndicators {
+  width: 100% !important;
+}
+
 /* INICIO seccion con iconos*/
 section {
   margin-right: 50px !important;
@@ -448,7 +452,7 @@ footer .col-sm-3 {
   font-size: 15px;
   margin-left: 5px;
   margin-bottom: 15px;
-  color: white;
+  color: black;
   font-family: "Raleway", sans-serif;
 }
 #texto-servicios i {
