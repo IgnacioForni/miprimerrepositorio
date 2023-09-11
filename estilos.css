@@ -50,10 +50,6 @@ font-family: 'Raleway', sans-serif;
   }
 }
 /* FIN introduccion + foto*/
-#carouselExampleIndicators {
-  width: 100% !important;
-}
-
 /* INICIO seccion con iconos*/
 section {
   margin-right: 50px !important;
